@@ -1,0 +1,30 @@
+penjelasan tentang polymorphism
+
+polymorphism berasal dari bahasa yunani yang berarti "memiliki banyak bentuk"
+polymorfisme adalah suatu kemampuan dari sebuah object untuk membolehkan mengambil beberapa bentuk yang berbeda agar tidak terjadi duplikasi object kita kenal sebagai polymorphism
+
+kedua objek tersebut mempunyai (interface) antarmuka identik namun mempunyai perilaku yang berbeda. Dalam pemrograman, polimorpism dapat diartikan sebagai modul yang memiliki nama sama, namun memiliki behaviour yang berbeda sehingga listing code implementasinya juga berbeda. Kondisi yang harus dipenuhi supaya polimorfisme dapat diimplementasikan adalah :
+·         Method yang dipanggil harus melalui variabel dari basis class atau superclass.
+·         Method yang dipanggil harus juga menjadi method dari basis class.
+·         Signature method harus sama baik pada superclass maupun subclass.
+·         Method access attribute pada subclass tidak boleh lebih terbatas dari basis class.
+
+
+
+
+dari contoh program yang sudah dilampirkan polymorphism tenjadi pada "void pukul", dimana void tersebut ada di class induk dan class turunannya , void pukul memiliki nama yg sama, tapi bentuk dari di tiap class nya berbeda,
+coding  yang terlampir memenuhi syarat terciptanya polymorphism, karena :
+-  memiliki antar muka yg identik (nama sama)
+- memiliki prilaku yg berbeda (behaviournya berbeda, sehingga listing kode dan implementasinya juga berbeda)
+
+
+
+pada void main di panggil void pukul dari semua class untuk ditampilkan, sehingga dapat dilihat perbedaan "pukul" dari masing - masing class
+
+
+
+
+
+Nama: Devie Yanti LIbrianti
+NPM: 14 111 o23
+kelas : TIF 14 A Reguler
